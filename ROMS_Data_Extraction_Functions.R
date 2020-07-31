@@ -4,6 +4,8 @@
 # ROMS has a non-linear grid so this function works by first aligning the lat/lon grid with the index values
 # Then it uses index values to find the correct grid cells
 
+# To use you need to provide a dataframe containing Longitude, Latitude and Date as well as the variable of interest.
+
 #########################################################################################################
 ### Function to get a depth profile of data for each location (data for multiple depths at each location)
 #########################################################################################################
